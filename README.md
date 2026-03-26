@@ -196,7 +196,7 @@
 | Year | Title | Arch | Feature | Links |
 |------|-------|------|---------|-------|
 | 2023 | [Cinematic Mindscapes: High-Quality Video Reconstruction from Brain Activity](https://arxiv.org/abs/2305.11675) | `Diffusion` | Spatiotemporal attention + contrastive learning; arbitrary frame-rate | [[Code]](https://github.com/jqin4749/MindVideo) [[Website]](https://www.mind-video.com) |
-| 2025 | [Animate Your Thoughts: Reconstruction of Dynamic Natural Vision from Human Brain Activity](https://openreview.net/forum?id=BpfsxFqhGa) | `Diffusion` | 将 fMRI 信号解耦为语义、结构和运动三种独立特征，解码驱动T2I模型重建每帧合成gif | [[Code]](https://github.com/ReedOnePeck/MindAnimator) |
+| 2025 | [Animate Your Thoughts: Reconstruction of Dynamic Natural Vision from Human Brain Activity](https://openreview.net/forum?id=BpfsxFqhGa) | `Diffusion` | Decouple fMRI signals into semantic, structural, and motion features, then decode them to each frame of synthesized GIFs | [[Code]](https://github.com/ReedOnePeck/MindAnimator) |
 
 ---
 
