@@ -54,75 +54,92 @@
 
 ## 📊 Datasets
 
+## Brain Decoding Dataset Collection
+
+---
+
 ### fMRI Datasets
 
 | Modality | Dataset | Description | Links |
 |----------|---------|-------------|-------|
-| Clinical | ABIDE-I | 1035 subjects (~111.8 hours) fMRI for autism detection and gender classification | [website](https://fcon_1000.projects.nitrc.org/indi/abide/) |
-| Clinical | ADHD200 | 973 subjects (~129.5 hours) fMRI for ADHD diagnosis | [website](https://fcon_1000.projects.nitrc.org/indi/adhd200/) |
-| Image | NSD (2021) | 7 subjects viewing ~70,000 natural images (~1.5–2TB, application required) | [website](https://registry.opendata.aws/nsd/) |
-| Image | BOLD5000 (2021) | 4 subjects viewing ~5,000 COCO/ImageNet images (~150–200GB) | [website](https://bold5000-dataset.github.io/website/download.html) |
-| Image | GOD (2019) | 5 subjects viewing object categories (~5–10GB) | [website](https://github.com/KamitaniLab/GenericObjectDecoding) |
-| Image | vim-1 (2011) | 1–2 subjects viewing thousands of natural images (~10GB, application required) | [website](https://crcns.org/data-sets/vc/vim-1/about-vim-1) |
-| Video | Algonauts (2021/2023) | 10–30 subjects watching short natural videos (~50–150GB) | [website](https://algonautsproject.com/index.html) |
-| Video | HCP | 1200 subjects multi-task and resting-state fMRI (~80–100TB) | [website](https://hub.datalad.org/hcp-openaccess/hcp1200-functional-connectivity) |
-| Video | CC2017 (2017) | 3 subjects watching ~3 hours of videos (~30–40GB) | [website](https://purr.purdue.edu/publications/2809/1) |
-| Video | BOLD Moments Dataset | 10 subjects watching 1,102 short videos (~88GB) | [website](https://github.com/blahner/BOLDMomentsDataset) |
-| Video | vim-2 (2014) | 3 subjects watching natural videos (~50–100GB, application required) | [website](https://crcns.org/data-sets/vc/vim-2/about-vim-2) |
-| Video | NFED (2024) | 5 subjects watching ~1320 facial expression videos (~176GB) | [website](https://openneuro.org/datasets/ds005047) |
-| Audio | Narratives (2011–2018) | 345 subjects listening to 28 spoken stories (~132GB) | [website](https://openneuro.org/datasets/ds002345) |
-| Audio | Nature Story Listening (2016) | 11 subjects listening to long-form stories | [website](https://gin.g-node.org/gallantlab/story_listening) |
-| Language | Semantic Listening vs Reading | fMRI during reading and listening to natural stories | [website](https://gin.g-node.org/denizenslab/narratives_reading_listening_fmri) |
+| Clinical | **ABIDE-I** | 1035 subjects (~111.8 hours) fMRI for autism detection and gender classification | [website](https://fcon_1000.projects.nitrc.org/indi/abide/) |
+|          | **ADHD200** | 973 subjects (~129.5 hours) fMRI for ADHD diagnosis | [website](https://fcon_1000.projects.nitrc.org/indi/adhd200/) |
+| Image | **NSD (2021)** | 7 subjects viewing ~70,000 natural images (~1.5–2TB, application required) | [website](https://registry.opendata.aws/nsd/) |
+|       | **BOLD5000 (2021)** | 4 subjects viewing ~5,000 COCO/ImageNet images (~150–200GB) | [website](https://bold5000-dataset.github.io/website/download.html) |
+|       | **GOD (2019)** | 5 subjects viewing object categories (~5–10GB) | [website](https://github.com/KamitaniLab/GenericObjectDecoding) |
+|       | **vim-1 (2011)** | 1–2 subjects viewing thousands of natural images (~10GB, application required) | [website](https://crcns.org/data-sets/vc/vim-1/about-vim-1) |
+| Video | **Algonauts (2021/2023)** | 10–30 subjects watching short natural videos (~50–150GB) | [website](https://algonautsproject.com/index.html) |
+|       | **Human Connectome Project** | 1200 subjects multi-task and resting-state fMRI (~80–100TB) | [website](https://hub.datalad.org/hcp-openaccess/hcp1200-functional-connectivity) |
+|       | **CC2017 (2017)** | 3 subjects watching ~3 hours of videos (~30–40GB) | [website](https://purr.purdue.edu/publications/2809/1) |
+|       | **BOLD Moments Dataset** | 10 subjects watching 1,102 short videos (~88GB) | [website](https://github.com/blahner/BOLDMomentsDataset) |
+|       | **vim-2 (2014)** | 3 subjects watching natural videos (~50–100GB, application required) | [website](https://crcns.org/data-sets/vc/vim-2/about-vim-2) |
+|       | **NFED (2024)** | 5 subjects watching ~1320 facial expression videos (~176GB) | [website](https://openneuro.org/datasets/ds005047) |
+| Audio | **Narratives (2011–2018)** | 345 subjects listening to 28 spoken stories (~132GB) | [website](https://openneuro.org/datasets/ds002345) |
+|       | **Nature Story Listening (2016)** | 11 subjects listening to long-form stories | [website](https://gin.g-node.org/gallantlab/story_listening) |
+| Language | **Semantic Listening vs Reading Dataset** | fMRI during reading and listening to natural stories | [website](https://gin.g-node.org/denizenslab/narratives_reading_listening_fmri) |
+
 
 ### EEG Datasets
 
 | Modality | Dataset | Description | Links |
 |----------|---------|-------------|-------|
-| Clinical | OpenNeuro AD/FTD Dataset | 36 AD + 23 FTD patients (~14.9 hours EEG) | [website](https://github.com/OpenNeuroDatasets/ds004504) |
-| Clinical | MDD (2016) | 35 subjects (~20.3 hours EEG) for depression classification | [website](https://figshare.com/articles/dataset/EEG_Data_New/4244171/2) |
-| Clinical | PD31 | 31 subjects (~2.5 hours EEG) for Parkinson’s detection | [website](https://openneuro.org/datasets/ds002778/versions/1.0.5) |
-| Clinical | TUAB | 2000+ subjects, 1000+ hours EEG (application required) | [website](https://isip.piconepress.com/projects/nedc/html/tuh_eeg/) |
-| Image | THINGS-EEG1 (2022) | 50 subjects viewing object images (~40GB) | [website](https://things-initiative.org/) |
-| Image | THINGS-EEG2 (2025) | 10 subjects viewing 16,740 images | [website](https://osf.io/user/6jt4f) |
-| Image | ImageNet-EEG | 16 subjects with 87,850 EEG-image pairs (~18GB) | [website](https://github.com/Promise-Z5Q2SQ/EEG-ImageNet-Dataset) |
-| Video | MAHNOB-HCI | 30 subjects watching emotional videos (partially unavailable) | [website](https://mahnob-db.eu) |
-| Language | ZuCo (2018) | 12 subjects reading text with EEG + eye-tracking (~5–10GB) | [website](https://osf.io/q3zws) |
-| Speech | Inner Speech Dataset | 10 subjects (~9 hours EEG) for imagined speech decoding | [website](https://github.com/N-Nieto/Inner_Speech_Dataset) |
-| Language | ChineseEEG-2 | 12 subjects performing Chinese reading tasks (~100GB) | [website](https://github.com/ncclab-sustech/ChineseEEG-2) |
-| Speech | KARA ONE | 12 subjects imagined speech dataset (~24GB) | [website](https://www.cs.toronto.edu/~complingweb/data/karaOne/karaOne.html) |
-| Event | TUEV | ~150 hours EEG with event annotations | [website](https://isip.piconepress.com/projects/nedc/html/tuh_eeg/) |
-| BCI | WBCIC_SHU | 51 subjects (~34 hours) motor imagery EEG | [website](https://figshare.com/articles/dataset/Brain_Computer_Interface_Motor_Imagery-EEG_Dataset/22671172) |
-| BCI | PhysioNet-MI | 109 subjects (~10.9 hours) motor imagery EEG | [website](https://physionet.org/content/eegmmidb/) |
-| Emotion | SEED (2013) | 15 subjects emotion EEG (application required) | [website](https://bcmi.sjtu.edu.cn/home/seed/index.html) |
-| Sleep | Sleep-EDF (2013) | 22 subjects overnight sleep EEG (~8.1GB) | [website](https://physionet.org/content/sleep-edfx/1.0.0/) |
+| General | **RawEEGData** | 10 subjects with multiple sessions, 64-channel raw EEG recordings | [website](https://dataverse.tdl.org/dataset.xhtml?persistentId=doi:10.18738/T8/SS2NHB) |
+| Clinical (AD) | **OpenNeuro AD/FTD Dataset** | 36 AD + 23 FTD patients (~14.9 hours EEG) | [website](https://github.com/OpenNeuroDatasets/ds004504) |
+| Clinical (MDD) | **Mumtaz2016** | 35 subjects (~20.3 hours EEG) for depression detection | [website](https://figshare.com/articles/dataset/EEG_Data_New/4244171/2) |
+| Clinical (MDD) | **MODMA** | Multimodal mental disorder dataset with EEG (128+3 channels) and speech | [website](https://modma.lzu.edu.cn/) |
+| Epilepsy | **SienaScalpEEGDatabase** | Clinical scalp EEG dataset with seizure annotations | [website](https://physionet.org/content/siena-scalp-eeg/1.0.0/) |
+|          | **CHB-MIT** | 20 pediatric subjects with epilepsy EEG (~40GB) | [website](https://physionet.org/content/chbmit/1.0.0/) |
+| Clinical (PD) | **PD31** | 31 subjects (~2.5 hours EEG) for Parkinson’s detection | [website](https://openneuro.org/datasets/ds002778/versions/1.0.5) |
+| Clinical | **TUAB** | 2000+ subjects, 1000+ hours EEG (application required) | [website](https://isip.piconepress.com/projects/nedc/html/tuh_eeg/) |
+| Image | **THINGS-EEG1 (2022)** | 50 subjects viewing object images (~40GB) | [website](https://things-initiative.org/) |
+|       | **THINGS-EEG2 (2025)** | 10 subjects viewing 16,740 images | [website](https://osf.io/user/6jt4f) |
+|       | **ImageNet-EEG** | 16 subjects with 87,850 EEG-image pairs (~18GB) | [website](https://github.com/Promise-Z5Q2SQ/EEG-ImageNet-Dataset) |
+| Video | **MAHNOB-HCI** | 30 subjects watching emotional videos (partially unavailable) | [website](https://mahnob-db.eu) |
+| Text | **ZuCo (2018)** | 12 subjects reading text with EEG + eye-tracking (~5–10GB) | [website](https://osf.io/q3zws) |
+| Speech/Text | **Inner Speech Dataset** | 10 subjects (~9 hours EEG) for imagined speech decoding | [website](https://github.com/N-Nieto/Inner_Speech_Dataset) |
+| Language | **ChineseEEG-2** | 12 subjects performing Chinese reading tasks (~100GB) | [website](https://github.com/ncclab-sustech/ChineseEEG-2) |
+| Imagined Speech | **BCIC2020-3** | 15 subjects, 64-channel EEG, 5-class imagined speech | [website](https://www.kaggle.com/datasets/abdulkareembageri/imagined-speech-eeg-signal-bci2020) |
+| Speech | **KARA ONE** | 12 subjects imagined speech dataset (~24GB) | [website](https://www.cs.toronto.edu/~complingweb/data/karaOne/karaOne.html) |
+| Event | **TUEV** | ~150 hours EEG with event annotations | [website](https://isip.piconepress.com/projects/nedc/html/tuh_eeg/) |
+| Motor Imagery | **WBCIC_SHU** | 51 subjects (~34 hours) motor imagery EEG | [website](https://figshare.com/articles/dataset/Brain_Computer_Interface_Motor_Imagery-EEG_Dataset/22671172) |
+|               | **PhysioNet-MI** | 109 subjects (~10.9 hours) motor imagery EEG | [website](https://physionet.org/content/eegmmidb/) |
+|               | **BCIC-IV-2a** | 9 subjects, 22-channel EEG, 4-class motor imagery | [website](https://www.bbci.de/competition/iv/#datasets) |
+| Mental Load | **MentalArithmetic** | 36 subjects performing arithmetic tasks for stress classification | [website](https://physionet.org/content/eegmat/1.0.0/) |
+| Emotion | **SEED (2013)** | 15 subjects emotion EEG (application required) | [website](https://bcmi.sjtu.edu.cn/home/seed/index.html) |
+| Sleep | **Sleep-EDF (2013)** | 22 subjects overnight sleep EEG (~8.1GB) | [website](https://physionet.org/content/sleep-edfx/1.0.0/) |
+|       | **ISRUC** | 100 subjects sleep EEG with 5-stage classification | [website](https://sleeptight.isr.uc.pt/) |
+| Multi-task | **MOABB** | Benchmark platform integrating 30+ pipelines and 36+ EEG datasets | [website](https://moabb.neurotechx.com/) |
 
-| 2024 | **MOABB** | Unified benchmark platform; 30+ pipelines, 36 datasets | [[Website]](https://moabb.neurotechx.com/) [[Paper]](https://arxiv.org/abs/2404.15319) |
 
 ### MEG Datasets
 
 | Modality | Dataset | Description | Links |
 |----------|---------|-------------|-------|
-| Multi-task | Cam-CAN MEG | Lifespan dataset with hundreds of subjects (application required) | [website](https://camcan-archive.mrc-cbu.cam.ac.uk) |
-| Clinical | OMEGA | 444 controls + 200 patients (>150 hours MEG) | [website](https://www.mcgill.ca/bic/neuroinformatics/omega) |
-| Multi-task | HCP-MEG | MEG subset of HCP with multiple tasks | [website](https://neuroimage.usc.edu/brainstorm/Tutorials/HCP-MEG) |
+| Multi-task | **Cam-CAN MEG** | Lifespan dataset with hundreds of subjects (application required) | [website](https://camcan-archive.mrc-cbu.cam.ac.uk) |
+| Clinical | **OMEGA** | 444 controls + 200 patients (>150 hours MEG) | [website](https://www.mcgill.ca/bic/neuroinformatics/omega) |
+| Multi-task | **HCP-MEG** | MEG subset of HCP with multiple tasks | [website](https://neuroimage.usc.edu/brainstorm/Tutorials/HCP-MEG) |
+
 
 ### ECoG Datasets
 
 | Modality | Dataset | Description | Links |
 |----------|---------|-------------|-------|
-| Multi-task | CRCNS ECoG | 21 epilepsy patients performing audiovisual tasks (~8GB) | [website](https://deepblue.lib.umich.edu/data/concern/data_sets/4f16c309z) |
+| Multi-task | **CRCNS ECoG** | 21 epilepsy patients performing audiovisual tasks (~8GB) | [website](https://deepblue.lib.umich.edu/data/concern/data_sets/4f16c309z) |
 
-### Multi-modal Datasets
 
-| Modality | Dataset | Description | Links |
-|----------|---------|-------------|-------|
-| Video+Audio+Text | CineBrain | 6 subjects (~6 hours) multimodal dataset (EEG + fMRI + stimuli) | [website](https://huggingface.co/datasets/Fudan-fMRI/CineBrain) |
-| Motor | SomatoMotor | 5 subjects (~0.7 hours) EEG+MEG motor task | [website](https://openneuro.org/datasets/ds006035/versions/1.0.0) |
-| Resting-state | LEMON | 220 subjects (~39.6 hours) EEG+fMRI | [website](https://fcon_1000.projects.nitrc.org/indi/retro/MPI_LEMON.html) |
-| Video | Nat-View | 22 subjects (~42.8 hours) EEG+fMRI natural viewing | [website](https://openneuro.org/datasets/ds003688) |
-| Language | SMN4Lang | 12 subjects (~70.4 hours) MEG+fMRI language dataset | [website](https://openneuro.org/datasets/ds004078/versions/1.2.1) |
+### Multimodal Datasets
 
-| 2019 | **THINGS Initiative** | 1,854 object concepts, 26,107 images; fMRI + MEG + EEG versions | [[Website]](https://things-initiative.org/) [[Paper]](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223792) |
+| Signal | Modality | Dataset | Description | Links |
+|--------|----------|---------|-------------|-------|
+| EEG + MEG | Motor | **SomatoMotor** | 5 subjects (~0.7 hours) EEG+MEG motor task dataset | [website](https://openneuro.org/datasets/ds006035/versions/1.0.0) |
+| EEG + fMRI | Video + Audio + Text | **CineBrain** | 6 subjects (~6 hours) multimodal dataset with video stimuli and brain recordings | [website](https://huggingface.co/datasets/Fudan-fMRI/CineBrain) |
+|            | Resting-state | **LEMON** | 220 subjects (~39.6 hours) resting-state EEG+fMRI dataset | [website](https://fcon_1000.projects.nitrc.org/indi/retro/MPI_LEMON.html) |
+|            | Video | **Nat-View** | 22 subjects (~42.8 hours) natural viewing EEG+fMRI dataset | [website](https://openneuro.org/datasets/ds003688) |
+| MEG + fMRI | Language | **SMN4Lang** | 12 subjects (~70.4 hours) multimodal language dataset | [website](https://openneuro.org/datasets/ds004078/versions/1.2.1) |
+| EEG + fNIRS + PPG | Speech + Vision + Motor | **L-mind** | 12 subjects multimodal dataset with 23,928 instruction-based samples | [website](https://huggingface.co/datasets/Lance1573/L-Mind) |
+| EEG + EOG + EMG | Sleep | **CAP** | Sleep dataset with CAP annotations including normal and pathological recordings | [website](https://physionet.org/content/capslpdb/1.0.0/) |
+|                 | Sleep | **MASS** | Large-scale multimodal sleep dataset with 200+ subjects | [website](http://ceams-carsm.ca/mass/) |
+
 
 ---
 
