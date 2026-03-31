@@ -50,6 +50,8 @@
 
 > 💡 **Tip**: fMRI excels at *where* (spatial), while EEG/MEG excel at *when* (temporal). Invasive methods (ECoG, sEEG) offer the best of both but require surgery.
 
+![Brain Decoding Publications by Signal Modality](brain_decoding_modalities.png)
+
 ---
 
 ## 📊 Datasets
