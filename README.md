@@ -175,6 +175,11 @@
 
 > High-impact papers from 2023-2025.
 
+Modern brain decoding systems are built on three complementary AI stacks: an **Encoder Stack** that learns neural representations via self-supervised pretraining (MAE, contrastive learning) and aligns them to shared cross-modal embedding spaces; a **Decoder Stack** that reconstructs stimuli using conditioned diffusion models or autoregressive transformers with brain-signal serialization; and a **"Unified" Stack** of brain foundation models that integrate spatio-temporal transformers, cross-modal knowledge distillation, and parameter-efficient fine-tuning (LoRA/PEFT) for generalizable, multi-subject decoding.
+
+![Core AI Technology Stack for Brain Decoding](Core%20AI%20Technology%20Stack%20for%20Brain%20Decoding.png)
+*Figure: Core AI Technology Stack System for Brain Decoding — covering the Encoder Stack (neural representation & cross-modal alignment), Decoder Stack (generative decoding & reconstruction), and the Unified Stack (brain foundation models & multimodal fusion).*
+
 ### 🖼️ Visual Reconstruction
 
 #### fMRI → Image
