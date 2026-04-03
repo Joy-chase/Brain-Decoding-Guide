@@ -195,7 +195,8 @@ Modern brain decoding systems are built on three complementary AI stacks: an **E
 
 ### 🖼️ Visual Reconstruction
 
-#### fMRI → Image
+<details>
+<summary><strong>📂 fMRI → Image (click to expand)</strong></summary>
 
 | Year | Title | Arch | Feature | Links |
 |------|-------|------|---------|-------|
@@ -207,31 +208,43 @@ Modern brain decoding systems are built on three complementary AI stacks: an **E
 | 2024 | [MindEye2: Shared-Subject Models Enable fMRI-to-Image with 1 Hour of Data](https://arxiv.org/abs/2403.11207) | `Diffusion` | Cross-subject transfer via functional alignment; only 1hr data needed | [[Code]](https://github.com/MedARC-AI/MindEyeV2) [[Website]](https://medarc-ai.github.io/mindeye2/) |
 | 2024 | [MindBridge: A Cross-Subject Brain Decoding Framework](https://arxiv.org/abs/2404.07850) | `Diffusion` | Single model for multi-subject; bio-inspired aggregation | [[Code]](https://github.com/littlepure2333/MindBridge) |
 
-#### EEG → Image
+</details>
+
+<details>
+<summary><strong>📂 EEG → Image (click to expand)</strong></summary>
 
 | Year | Title | Arch | Feature | Links |
 |------|-------|------|---------|-------|
 | 2024 | [DreamDiffusion: Generating High-Quality Images from Brain EEG Signals](https://arxiv.org/abs/2306.16934) | `Diffusion` | Temporal masking pre-train + CLIP alignment; first EEG-to-image | [[Code]](https://github.com/bbaaii/DreamDiffusion) |
 | 2024 | [Visual Decoding and Reconstruction via EEG Embeddings with Guided Diffusion (ATM)](https://arxiv.org/abs/2403.07721) | `Diffusion` | Adaptive Thinking Mapper (ATM) encoder; zero-shot cross-subject reconstruction | [[Code]](https://github.com/dongyangli-del/EEG_Image_decode) |
 
-#### EEG → Video
+</details>
+
+<details>
+<summary><strong>📂 EEG → Video (click to expand)</strong></summary>
 
 | Year | Title | Arch | Feature | Links |
 |------|-------|------|---------|-------|
 | 2024 | [EEG2Video: Towards Decoding Dynamic Visual Perception from EEG Signals](https://arxiv.org/abs/2410.07297) | `Diffusion` | Seq2Seq EEG encoder; first EEG-to-video reconstruction; 79.8% semantic accuracy | [[Code]](https://github.com/XuanhaoLiu/EEG2Video) |
 
-#### fMRI → Video
+</details>
+
+<details>
+<summary><strong>📂 fMRI → Video (click to expand)</strong></summary>
 
 | Year | Title | Arch | Feature | Links |
 |------|-------|------|---------|-------|
 | 2023 | [Cinematic Mindscapes: High-Quality Video Reconstruction from Brain Activity](https://arxiv.org/abs/2305.11675) | `Diffusion` | Spatiotemporal attention + contrastive learning; arbitrary frame-rate | [[Code]](https://github.com/jqin4749/MindVideo) [[Website]](https://www.mind-video.com) |
 | 2025 | [Animate Your Thoughts: Reconstruction of Dynamic Natural Vision from Human Brain Activity](https://openreview.net/forum?id=BpfsxFqhGa) | `Diffusion` | Decouple fMRI signals into semantic, structural, and motion features, then decode them to each frame of synthesized GIFs | [[Code]](https://github.com/ReedOnePeck/MindAnimator) |
 
+</details>
+
 ---
 
 ### 🗣️ Speech & Language Decoding
 
-#### Invasive Speech (ECoG/Intracortical)
+<details>
+<summary><strong>📂 Invasive Speech — ECoG / Intracortical (click to expand)</strong></summary>
 
 | Year | Title | Arch | Feature | Links |
 |------|-------|------|---------|-------|
@@ -239,7 +252,10 @@ Modern brain decoding systems are built on three complementary AI stacks: an **E
 | 2023 | [A High-Performance Neuroprosthesis for Speech Decoding and Avatar Control](https://www.nature.com/articles/s41586-023-06443-4) | `RNN` | Real-time avatar control with facial expression + speech | |
 | 2025 | [A Streaming Brain-to-Voice Neuroprosthesis](https://www.nature.com/articles/s41593-025-01905-6) | `RNN-Transducer` | 80ms streaming decoding; real-time speech synthesis | [[Code]](https://github.com/cheoljun95/streaming.braindecoder) |
 
-#### Non-invasive Semantic (fMRI/EEG/MEG)
+</details>
+
+<details>
+<summary><strong>📂 Non-invasive Semantic — fMRI / EEG / MEG (click to expand)</strong></summary>
 
 | Year | Title | Arch | Feature | Links |
 |------|-------|------|---------|-------|
@@ -247,9 +263,14 @@ Modern brain decoding systems are built on three complementary AI stacks: an **E
 | 2024 | [DeWave: Discrete EEG Waves Encoding for Brain Dynamics to Text Translation](https://arxiv.org/abs/2309.14030) | `Transformer` | Discrete codebook alignment to LLM; no word-level gaze annotation | |
 | 2025 | [Decoding Individual Words from Non-invasive Brain Recordings (EEG/MEG)](https://www.nature.com/articles/s41467-025-65499-0) | `Transformer` | Deep learning pipeline decoding individual words from EEG and MEG signals | |
 
+</details>
+
 ---
 
 ### 🎯 Motor & Intention Decoding
+
+<details>
+<summary><strong>📂 Motor Imagery Papers (click to expand)</strong></summary>
 
 | Year | Title | Arch | Feature | Links |
 |------|-------|------|---------|-------|
@@ -257,14 +278,21 @@ Modern brain decoding systems are built on three complementary AI stacks: an **E
 | 2023 | [EEG Conformer: Convolutional Transformer for EEG Decoding and Visualization](https://ieeexplore.ieee.org/document/9991178) | `Conformer` | Conv + self-attention; CAM-based topographic visualization | [[Code]](https://github.com/eeyhsong/EEG-Conformer) |
 | 2022 | [ATCNet: Attention Temporal Convolutional Network for EEG-based Motor Imagery Classification](https://ieeexplore.ieee.org/document/9852687) | `TCN` | Sliding window + multi-head attention + TCN residual | [[Code]](https://github.com/Altaheri/EEG-ATCNet) |
 
+</details>
+
 ---
 
 ### 🧩 Brain Foundation Models
+
+<details>
+<summary><strong>📂 Foundation Model Papers (click to expand)</strong></summary>
 
 | Year | Title | Arch | Feature | Links |
 |------|-------|------|---------|-------|
 | 2024 | [LaBraM: Large Brain Model for Learning Generic Representations with Tremendous EEG Data](https://arxiv.org/abs/2405.18765) | `Transformer` | Pre-trained on ~2,500 hours EEG across 20+ datasets; vector-quantized neural spectrum prediction | [[Code]](https://github.com/935963004/LaBraM) |
 | 2023 | [BRANT: Foundation Model for Intracortical Neural Signal](https://proceedings.neurips.cc/paper_files/paper/2023/hash/fdcb46d6ccd3d4b86a6ad4cc598b08a7-Abstract-Conference.html) | `Transformer` | Spatiotemporal Transformer pre-trained on large-scale intracortical data | |
+
+</details>
 
 ---
 
@@ -319,25 +347,40 @@ Modern brain decoding systems are built on three complementary AI stacks: an **E
 
 ### 📺 Video Tutorials & Courses
 
+<details>
+<summary><strong>📂 Video Tutorials (click to expand)</strong></summary>
+
 | Resource | Description | Link |
 |----------|-------------|------|
 | **Neuromatch Academy** | World-class open course on computational neuroscience; encoding/decoding basics | [[Website]](https://neuromatch.io/) [[YouTube]](https://www.youtube.com/@neuaboratory) [[Bilibili]](https://search.bilibili.com/all?keyword=Neuromatch) |
 | **INCF: Deep Learning in Neuroscience** | Beginner-level DL for neuroscience applications | [[Website]](https://training.incf.org/lesson/fundamentals-deep-learning-neuroscience) |
 
+</details>
+
 ### 📖 Textbooks & Reading
+
+<details>
+<summary><strong>📂 Textbooks & Reading (click to expand)</strong></summary>
 
 | Resource | Description | Link |
 |----------|-------------|------|
 | **Deep Learning (Goodfellow et al.)** | Deep learning bible; free online | [[Website]](https://www.deeplearningbook.org/) |
 | **Awesome-Brain-Encoding-Decoding** | Curated paper list | [[GitHub]](https://github.com/subbareddy248/Awesome-Brain-Encoding--Decoding) |
 
+</details>
+
 ### 🌐 Communities
+
+<details>
+<summary><strong>📂 Communities (click to expand)</strong></summary>
 
 | Community | Description | Link |
 |-----------|-------------|------|
 | **NeuroAI WeChat Group** | Chinese community for brain + AI research | Contact via WeChat number `MobiusAI` |
 | **BCI Society** | International BCI research community | [[Website]](https://bcisociety.org/) |
 | **OHBM** | Organization for Human Brain Mapping | [[Website]](https://www.humanbrainmapping.org/) |
+
+</details>
 
 ---
 
